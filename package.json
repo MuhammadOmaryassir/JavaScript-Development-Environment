@@ -4,7 +4,9 @@
   "description": "JavaScript development environment Pluralsight course by Cory House",
   "scripts": {
     "prestart":"node buildScripts/startMessage.js",
-    "start":"node buildScripts/srcServer.js"
+    "start":"node buildScripts/srcServer.js",
+    "secuirty-check":"nsp check",
+    "share":"lt --port 5000"
   },
   "author": "Muhammad Omar",
   "license": "MIT",
