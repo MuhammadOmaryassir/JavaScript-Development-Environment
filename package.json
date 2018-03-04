@@ -14,8 +14,15 @@
     "test:watch": "npm run test -- --watch",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omaroovee/JavaScript-Development-Environment.git"
+  },
   "author": "Muhammad Omar",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Omaroovee/JavaScript-Development-Environment/issues"
+  },
   "dependencies": {
     "whatwg-fetch": "1.0.0"
   },
